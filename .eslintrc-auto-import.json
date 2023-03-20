@@ -1,0 +1,33 @@
+{
+  "globals": {
+    "DEFAULT_LANG": true,
+    "DEFAULT_THEME": true,
+    "LANGS": true,
+    "RTL_LANGS": true,
+    "THEMES": true,
+    "afterUpdate": true,
+    "beforeUpdate": true,
+    "blur": true,
+    "createEventDispatcher": true,
+    "crossfade": true,
+    "derived": true,
+    "dir_toggle": true,
+    "draw": true,
+    "fade": true,
+    "fly": true,
+    "get": true,
+    "getAllContexts": true,
+    "getContext": true,
+    "hasContext": true,
+    "lang_toggle": true,
+    "onDestroy": true,
+    "onMount": true,
+    "readable": true,
+    "scale": true,
+    "setContext": true,
+    "slide": true,
+    "theme_toggle": true,
+    "tick": true,
+    "writable": true
+  }
+}
