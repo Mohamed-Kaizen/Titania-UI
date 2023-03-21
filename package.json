@@ -15,11 +15,11 @@
 	},
 	"private": true,
 	"scripts": {
+		"dev": "vite dev",
 		"build": "vite build",
 		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
 		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
 		"commit": "cz commit",
-		"dev": "vite dev",
 		"lint": "prettier --plugin-search-dir . --check . && eslint .",
 		"preview": "vite preview",
 		"format": "prettier --plugin-search-dir . --write ."

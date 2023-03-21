@@ -1,6 +1,7 @@
 import { sveltekit } from "@sveltejs/kit/vite"
 
 import {
+	extractorSvelte,
 	presetIcons,
 	presetUno,
 	presetWebFonts,
@@ -26,10 +27,11 @@ const config: UserConfig = {
 		Components({
 			dirs: ["./src/components"],
 			dts: "./src/components.d.ts",
+			directoryAsNamespace: true,
 		}),
 		Unocss({
-			mode: "svelte-scoped",
 			presets: [presetIcons(), presetUno(), presetWebFonts({})],
+			extractors: [extractorSvelte],
 			transformers: [transformerVariantGroup()],
 		}),
 		sveltekit(),

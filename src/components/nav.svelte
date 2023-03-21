@@ -2,7 +2,7 @@
 	import { enhance } from "$app/forms"
 </script>
 
-<nav class="border flex mb-4 justify-between">
+<nav class="border flex justify-between">
 	<!-- svelte-ignore missing-declaration -->
 	<form
 		use:enhance="{({ data }) => theme_toggle(`${data.get('theme')}`)}"
